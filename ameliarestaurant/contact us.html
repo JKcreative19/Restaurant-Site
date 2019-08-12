@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Amelia's Restaurant</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="styles/restaurantStyles.css">
+    
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aguafina+Script&display=swap" rel="stylesheet">
+
+
+    <style>
+        .body {
+          background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+          background-repeat: no-repeat;
+        }
+       
+        form {
+
+          margin: 0 auto;
+          display: inline-grid;
+          align-items: center; 
+          height: auto;
+          margin-left: 25%; 
+          margin-right: 5px; 
+          margin-top: 50px;
+          }
+        }
+
+
+
+
+
+
+    </style>
+
+  </head>
+  <body class="body">
+
+
+
+
+
+    
+
+    <header id="header">    
+        <p>Amelia's Restaurant</p>
+    </header>  
+
+    
+    <nav class="navbar navbar-dark bg-dark sticky-top">
+      <ul class="nav nav-pills">
+
+        <li class="nav-item">
+          <a href="index.html"><i class="fas fa-home fa-3x nav-item nav-link " width="80" height="80"></i></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="Menu.html" style="margin-left: 30px; margin-top: 5px;">Menu</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="Contact Us.html" style="margin-left: 10px; margin-top: 5px;">Contact Us</a>
+        </li>
+  
+      </ul>
+      
+    </nav>
+    
+<div id="container">
+    <div id="main">
+        
+        <div class="form" novalidate>
+          <form class="need-validation" action="submit.html" method="POST">
+
+            <label for="firstName">First Name:</label> <br />
+              <input type="text" id="firstName" class="form-control" name="firstName" required="required"> <br />
+              
+
+            <label for="lastName">Last Name:</label><br />
+              <input type="text" id="lastName" class="form-control" name="lastName" required="required"> <br />
+
+            <label for="phone">Phone Number:</label><br />
+              <input type="text" id="phone" class="form-control" name="phone" required="required"> <br />
+
+            <label for="contact" required="required">Reason for Inquiry</label><br />
+              <select id="contact" name="contact" class="form-control" required="required"> 
+                <option value="default" required="required"></option>
+                <option value="Private Party" required="required">Catering</option>
+                <option value="Private Party">Private Party</option>
+                <option value="Feedback">Feedback</option>
+                <option value="Other">Other</option>
+              </select>
+
+          <br />
+          <label for="info">Additional Information</label><br />
+            <textarea id="info" name="info" class="form-control"></textarea>
+
+          <br />
+          <div class="form-check form-check-inline" required>
+            <legend>Have you been to the restaurant?</legend>
+              <input class="form-check-inline" type="radio" id="choice1" name="questionnaire" value="yes" style="margin-left: 20px;" >
+                <label class="form-check-inline" for="choice1">Yes</label>
+              <input class="form-check-inline" type="radio" id="choice2" name="questionnaire" value="no" style="margin-left: 10px;">
+                <label class="form-check-inline" for="choice2">No</label>
+          </div>
+          <br />
+
+    
+          <div class="form-check form-check-inline" required>
+            <legend>Best day to contact you:</legend>
+              <input type="checkbox" id="weekday-mon" class="weekday"  />
+                <label for="weekday-mon">M</label>
+                <input type="checkbox" id="weekday-tue" class="weekday" style="margin-left: 10px;" />
+                <label for="weekday-tue" >T</label>
+                <input type="checkbox" id="weekday-wed" class="weekday" style="margin-left: 10px;" />
+                <label for="weekday-wed">W</label>
+                <input type="checkbox" id="weekday-thu" class="weekday" style="margin-left: 10px;" />
+                <label for="weekday-thu">Th</label>
+                <input type="checkbox" id="weekday-fri" class="weekday" style="margin-left: 10px;"/>
+                <label for="weekday-fri">F</label>
+          <br />
+          </div>
+
+          <br />
+          
+            
+            <button type="submit" class="btn btn-warning">Send Request<span class="glyphicon glyphicon-send" style="position: center;"></span></button>
+
+          </div>
+          
+    
+    
+
+        </div>
+
+            
+
+
+        </form>
+
+    </div>
+</div>
+   
+   
+
+
+
+
+<br />
+<hr style="border-width: 5px; background-color: red;">
+      
+    
+    
+    <footer id="footer">
+      <p>Via XXI settembre 13, Amelia TR, 05022 Amelia TR, Italy
+      0744-978794</p>
+      <p>&copy; 2020 Amelia's Restaurant, All Right Reserved.</p>
+    </footer>
+
+
+      
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+
+  
+
+</html>

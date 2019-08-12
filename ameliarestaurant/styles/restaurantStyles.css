@@ -1,0 +1,39 @@
+
+
+
+
+#header {
+	
+    font-family: 'Aguafina Script', cursive;
+    font-size: 8em;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);;
+    padding-top: 30px;
+    padding-bottom: 1px;
+}
+
+.nav-item a:hover {
+	color: orange;
+	font: bold;
+
+}
+
+.jumbotron {
+	padding-top: 15px;
+	padding-bottom: 1px;
+	margin: 0 auto;
+
+}
+
+
+#footer {
+	color: white;
+	text-align: center;
+	background: #1b1e24;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 1px;
+}
